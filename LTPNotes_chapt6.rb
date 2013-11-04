@@ -25,6 +25,8 @@ puts
 
 # from page 35 in LTP
 puts "FANCY STRING METHODS AHOY!"
+puts "*******"
+puts "Let's see STRING.reverse() in action"
 var1 = 'stop'
 var2 = 'deliver rapid desserts'
 var3 = '....TCELES B HSUP  A magic spell?'
@@ -35,5 +37,22 @@ puts var3.reverse
 puts var1
 puts var2
 puts var3
+puts
+
+puts 'Now for STRING.length()'
+puts 'What is your full name?'
+name = gets.chomp
+puts 'Did you know that there are ' + name.length.to_s + ' characters'
+puts 'in your name, ' + name + '?'
+puts
+puts 'Want to know the number of letters in your full name?'
+puts 'What is your first name?'
+fn = gets.chomp
+puts 'What is your middle name?'
+mn = gets.chomp
+puts 'What is your last name?'
+ln = gets.chomp
+puts 'Did you know that you have ' + (fn.length + mn.length + ln.length).to_s + ' letters in your name?'
+puts '[drops mic]'
 
 
