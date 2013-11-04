@@ -54,5 +54,16 @@ puts 'What is your last name?'
 ln = gets.chomp
 puts 'Did you know that you have ' + (fn.length + mn.length + ln.length).to_s + ' letters in your name?'
 puts '[drops mic]'
+puts
+
+puts 'Let\'s deal with some captitalization now.'
+letters = 'aAbBcCdDeE'
+puts 'The original string: ' + letters
+puts "letters.upcase yields: #{letters.upcase}"
+puts "letters.downcase yields: #{letters.downcase}"
+puts "letters.swapcase yields: #{letters.swapcase}"
+puts "letters.capitalize yields: #{letters.capitalize}"
+puts ' a'.capitalize + ' That\'s just a.capitalize'
+puts letters + ' back to the original string?'
 
 
