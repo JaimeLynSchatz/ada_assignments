@@ -65,5 +65,15 @@ puts "letters.swapcase yields: #{letters.swapcase}"
 puts "letters.capitalize yields: #{letters.capitalize}"
 puts ' a'.capitalize + ' That\'s just a.capitalize'
 puts letters + ' back to the original string?'
+puts
 
+puts 'How about some text formatting methods?'
+line_width = 50
+puts('Old Mother Hubbard'.center(line_width))
+puts('Sat in her cupboard'.center(line_width))
+puts('Eating her curds and whey.'.center(line_width))
+puts('Along came a spider'.center(line_width))
+puts('Who sat down beside her'.center(line_width))
+puts('And frightened her poor shoe dog away.'.center(line_width))
+puts
 
