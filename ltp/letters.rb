@@ -18,3 +18,7 @@ puts '2 * 5'
 # you can't do that on television, either
 # puts '2' * '5'
 
+puts 'You\'re swell!'
+puts 'backslash at the end of a string: \\'
+puts 'up\\down'
+puts 'up\down'
