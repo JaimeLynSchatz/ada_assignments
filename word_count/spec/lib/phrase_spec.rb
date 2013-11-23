@@ -14,7 +14,7 @@ describe Phrase do
     phrase = Phrase.new("one of each")
     counts = { "one" => 1, "of" => 1, "each" => 1 }
 
-    expect(phrase.word_count.to eq counts)
+    expect(phrase.word_count).to eq counts
   end
 
   it "should count multiple occurences one time for each occurrence" do

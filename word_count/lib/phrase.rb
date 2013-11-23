@@ -11,10 +11,11 @@ class Phrase
     words = @str.split(" ")
     counts = {}
     words.each do |word|
-      if counts.has_value?(word)
-        words[word] =+ 1
+      word = word.downcase
+      if counts.has_key?(word)
+        counts[word] += 1
       else
-        words[word] = 1
+        counts[word] = 1
       end
     end
     counts
